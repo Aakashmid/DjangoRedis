@@ -1,7 +1,7 @@
 {
     "files": [
         {
-            "url": "https://github.com/Aakashmid/DjangoRedis/blob/main/middlewarecontroller/custom_middleware.py",
+            "url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/middlewarecontroller/custom_middleware.py",
             "destination": "middlewarecontroller/custom_middleware.py"
         }
     ],
