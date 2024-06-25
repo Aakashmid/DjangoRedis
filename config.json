@@ -1,0 +1,9 @@
+{
+    "files": [
+        {
+            "url": "https://github.com/Aakashmid/DjangoRedis/blob/main/middlewarecontroller/custom_middleware.py",
+            "destination": "middlewarecontroller/custom_middleware.py"
+        }
+    ],
+    "instructions": "Add middleware in settings.MIDDLEWARE and then enter "
+}
