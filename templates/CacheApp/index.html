@@ -1,0 +1,33 @@
+{% extends "CacheApp/base.html" %}
+{% block body %}
+
+<div class="container">
+    <!-- <div class="" style="margin: auto; width: 60%;">
+        {% for product in data  %}
+        <div class="" style="margin:10x 0px  ; padding: 10px;">
+            <h3>Product {{forloop.counter}}</h3>
+            <h2> {{product.name}}</h2>
+            <p class="">{{product.description}}</p>
+            <p class="">{{product.price}} Rs</p>
+            
+        </div>
+        {% endfor %}
+    </div> -->
+
+    <div class="d-flex flex-row flex-wrap " style="width: 70vw; margin: auto;">
+        {% for product in data  %}
+        <div class="card  " style="width: 300px; margin: 10px;">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title">{{product.name}}</h5>
+              <p class="card-text">{{product.description}}</p>
+              <p class="card-text">{{product.price}} Rs</p>
+              <a href="#" class="btn btn-primary">Add To Cart</a>
+            </div>
+          </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock body %}
+
