@@ -1,0 +1,7 @@
+{
+
+    "features": [
+         "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/config.json"
+    ],
+    "instructions": "Follow given instructions "
+}

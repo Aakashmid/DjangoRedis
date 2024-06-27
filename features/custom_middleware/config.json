@@ -1,0 +1,14 @@
+{
+    "files": [
+        {
+            "url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/LoggingMiddleware.py",
+            "destination":"features/custom_middleware/LoggingMiddleware.py",
+            "instructions": "Follow given instructions to set up LoggingMiddleware.py  "
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/CacheUpdateMiddleware.py",
+            "destination":"features/custom_middleware/CacheUpdateMiddleware.py",
+            "instructions": "Follow given instructions to set up LoggingMiddleware.py  "
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+//main_config content structure
+
+{
+    "features": [
+        {
+
+            "config_url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/config.json"
+        },
+        // {
+
+        //     "config_url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/config.json"
+        // }
+    ],
+    "instructions": "Follow given instructions "
+}
