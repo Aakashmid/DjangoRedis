@@ -1,14 +1,20 @@
 {
+    "Name":"CustomMiddleware",
     "files": [
         {
             "url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/LoggingMiddleware.py",
             "destination":"features/custom_middleware/LoggingMiddleware.py",
-            "instructions": "Follow given instructions to set up LoggingMiddleware.py  "
+            "instructions": "Instructions to set up LoggingMiddleware.py \n - Add 'features.custom_middleware.LoggingMiddleware.CustomMiddleware'  in settings.middleware ",
+            "middleware_class":"features.custom_middleware.LoggingMiddleware.CustomMiddleware",
+            "needs_mongo":true
+            
         },
         {
             "url": "https://raw.githubusercontent.com/Aakashmid/DjangoRedis/main/features/custom_middleware/CacheUpdateMiddleware.py",
             "destination":"features/custom_middleware/CacheUpdateMiddleware.py",
-            "instructions": "Follow given instructions to set up LoggingMiddleware.py  "
+            "instructions": "Instructions to set up CacheUpdateMiddleware \n - Add 'features.custom_middleware.CacheUpdateMiddleware.CustomMiddleware'  in settings.middleware",
+            "middleware_class":"features.custom_middleware.CacheUpdateMiddleware.CustomMiddleware",
+            "needs_mongo":false
         }
     ]
 }
