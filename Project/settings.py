@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'CacheApp',
     'debug_toolbar',
+    # 'django_webhook'
 ]
 
 MIDDLEWARE = [
@@ -138,3 +139,7 @@ CACHES = {
         }
     }
 }
+
+# Whitelist models for which we send webhooks
+# DJANGO_WEBHOOK = dict(MODELS=["CacheApp.Product"])
+# WEBHOOK_URL='http://127.0.0.1:8000/update_cache'
